@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #ff7a7a;
+  background: linear-gradient(#6055a5, #ff7a7a), url(./images/bg-intro-desktop.png);
   color: white;
   min-width: 100vw;
   min-height: 100vh;
