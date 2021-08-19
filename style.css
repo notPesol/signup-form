@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ff7a7a;
+  color: white;
+  min-width: 100vw;
+  min-height: 100vh;
+  font-size: 16px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  width: 960px;
+  max-width: 100%;
+  margin: 100px auto;
+  padding: 20px;
+  align-items: center;
+}
+@media screen and (max-width: 600px) {
+  .container {
+    display: block;
+  }
+}
+
+.header {
+  margin-bottom: 50px;
+}
+.header h1 {
+  font-size: 3rem;
+  line-height: 3.1rem;
+  margin-bottom: 2rem;
+}
+.header p {
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+@media screen and (max-width: 600px) {
+  .header {
+    text-align: center;
+  }
+  .header h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  .header p {
+    font-weight: 400;
+    font-size: 0.9rem;
+  }
+}
+
+.head {
+  text-align: center;
+  background-color: #6055a5;
+  font-size: 0.9rem;
+  font-weight: 400;
+  padding: 12px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 4px rgba(8, 8, 8, 0.295);
+  margin: 0 0 20px 0;
+  cursor: pointer;
+  font-weight: 700;
+}
+.head span {
+  font-weight: 400;
+  color: #b9b6d3;
+}
+
+.form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 1px 5px 5px rgba(8, 8, 8, 0.295);
+}
+.form input {
+  color: #3e3c49;
+  padding: 10px;
+  font-weight: 700;
+  width: 100%;
+  height: 50px;
+  margin: 10px auto;
+  border-color: #b9b6d3;
+  border-radius: 8px;
+  outline: none;
+}
+.form .form-btn {
+  margin: 10px auto;
+  width: 100%;
+}
+.form .form-btn button {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  background-color: #38cc8c;
+  width: 100%;
+  min-height: 45px;
+  padding: 12px 20px;
+  border-radius: 8px;
+  border-style: none;
+}
+.form .agree {
+  text-align: center;
+  font-size: 0.6rem;
+  color: #b9b6d3;
+}
+.form .agree .term {
+  color: #ff7a7a;
+}
+.form .error {
+  display: none;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #ff7a7a;
+}
+.form .invalid {
+  display: block;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+/*# sourceMappingURL=style.css.map */
